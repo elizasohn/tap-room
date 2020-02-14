@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function MarketSchedule(props){
+function Keg(props){
   return (
     <div>
       <h3>{props.name}</h3>
@@ -12,11 +12,11 @@ function MarketSchedule(props){
     );
 }
 
-MarketSchedule.propTypes = {
+Keg.propTypes = {
   name: PropTypes.string.isRequired,
   brand: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
   alcoholContent: PropTypes.string.isRequired,
 };
 
-export default MarketSchedule;
+export default Keg;

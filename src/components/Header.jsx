@@ -29,7 +29,7 @@ function Header(){
     <div style = {headerStyle}>
       <h1>Beer Time Tap Room</h1>
       <div style = {links}>
-      <Link to="/">Home</Link> | <Link to="/marketschedulelist">Kegs on Tap</Link>
+      <Link to="/">Home</Link> | <Link to="/keglist">Kegs on Tap</Link>
       </div>
     </div>
   );

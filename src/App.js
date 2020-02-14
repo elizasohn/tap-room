@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Header from './components/Header'
-import MarketScheduleList from './components/MarketScheduleList'
+import KegList from './components/KegList'
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div>
     <Header/>
     <Switch>
-      <Route exact path='/marketschedulelist' component={MarketScheduleList} />
+      <Route exact path='/keglist' component={KegList} />
     </Switch>
     </div>
   );

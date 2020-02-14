@@ -1,5 +1,5 @@
 import React from "react";
-import MarketSchedule from "./MarketSchedule";
+import Keg from "./Keg";
 
 
 var scheduleStyle = {
@@ -15,7 +15,7 @@ var scheduleStyle = {
 }
 
 
-const marketScheduleList = [
+const kegList = [
   {
     name: "Pils",
     brand: "Heater Allen Brewing",
@@ -78,19 +78,19 @@ const marketScheduleList = [
   }
 ];
 
-function MarketScheduleList(){
+function KegList(){
 
   return (
     <div style = {scheduleStyle}>
-      {marketScheduleList.map((marketSchedule, index) =>
-        <MarketSchedule name={marketSchedule.name}
-        brand={marketSchedule.brand}
-        price={marketSchedule.price}
-        alcoholContent={marketSchedule.alcoholContent}
+      {kegList.map((keg, index) =>
+        <Keg name={keg.name}
+        brand={keg.brand}
+        price={keg.price}
+        alcoholContent={keg.alcoholContent}
         key={index}/>
       )}
     </div>
   );
 }
 
-export default MarketScheduleList;
+export default KegList;

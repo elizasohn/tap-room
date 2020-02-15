@@ -9,7 +9,7 @@ function Header(){
   var headerStyle = {
     margin: '1vh auto',
     justifyContent:'left',
-    backgroundImage: "url('https://img1.mashed.com/img/gallery/7-vegetables-you-should-be-eating-and-7-you-shouldnt/intro-1543595549.jpg')",
+    backgroundImage: "url('beercloseup.jpeg')",
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     padding: '2vh',

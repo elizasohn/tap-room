@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import KegList from './components/KegList';
 import './App.css';
-import './index.css'
+import './index.css';
 
 function App() {
   return (

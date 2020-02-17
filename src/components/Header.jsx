@@ -29,8 +29,9 @@ function Header(){
     <div style = {headerStyle}>
       <h1></h1>
       <div style = {links} className="links">
-      <Link to="/" style={{ color: '#FFF' }}>Home</Link> | <Link to="/keglist" style={{ color: '#FFF' }}>Kegs on Tap</Link>
+      <Link to="/" style={{ color: '#FFF' }}>HOME</Link> | <Link to="/keglist" style={{ color: '#FFF' }}>KEGS ON TAP</Link>
       </div>
+      <hr/>
     </div>
   );
 }

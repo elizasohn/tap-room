@@ -3,7 +3,5 @@ body {
   background-repeat: 'no-repeat';
   background-attachment: fixed;
   margin: 2vh;
-}
-links {
-  color: 'white';
+  font: 'futura';
 }

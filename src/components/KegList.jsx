@@ -2,16 +2,16 @@ import React from "react";
 import Keg from "./Keg";
 
 
-var scheduleStyle = {
+var keglistStyle = {
   display:'flex',
   flexWrap: 'wrap',
   justifyContent:'center',
-  backgroundColor: '#6fffc3',
+  backgroundColor: '#fff',
   padding: '2vh',
   opacity: '.7',
   overflow: 'visible',
   borderRadius: '4vh',
-  margin:'10px'
+  margin:'10px',
 }
 
 
@@ -81,7 +81,7 @@ const kegList = [
 function KegList(){
 
   return (
-    <div style = {scheduleStyle}>
+    <div style = {keglistStyle}>
       {kegList.map((keg, index) =>
         <Keg name={keg.name}
         brand={keg.brand}

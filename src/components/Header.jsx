@@ -28,8 +28,8 @@ function Header(){
   return (
     <div style = {headerStyle}>
       <h1></h1>
-      <div style = {links}>
-      <Link to="/">Home</Link> | <Link to="/keglist">Kegs on Tap</Link>
+      <div style = {links} className="links">
+      <Link to="/" style={{ color: '#FFF' }}>Home</Link> | <Link to="/keglist" style={{ color: '#FFF' }}>Kegs on Tap</Link>
       </div>
     </div>
   );

@@ -6,12 +6,13 @@ var keglistStyle = {
   display:'flex',
   flexWrap: 'wrap',
   justifyContent:'center',
-  backgroundColor: '#fff',
+  backgroundColor: '#000000',
   padding: '2vh',
   opacity: '.7',
   overflow: 'visible',
   borderRadius: '4vh',
   margin:'10px',
+  fontSize: '14px',
 }
 
 

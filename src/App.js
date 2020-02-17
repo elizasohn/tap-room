@@ -15,7 +15,7 @@ function App() {
     <Switch>
       <Route exact path='/' component={Home} />
       <Route exact path='/keglist' component={KegList} />
-      <Route component={Error404} />
+      <Route path='*' component={Error404} />
     </Switch>
     </div>
   );

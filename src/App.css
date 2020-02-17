@@ -5,3 +5,10 @@ body {
   margin: 2vh;
   color: white;
 }
+.keg {
+  margin: 5px;
+  padding: 5px;
+}
+.links {
+  font-family: futura;
+}

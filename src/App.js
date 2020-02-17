@@ -5,7 +5,7 @@ import Home from './components/Home';
 import KegList from './components/KegList';
 import './App.css';
 import './index.css';
-import Error404 from './Error404';
+import Error404 from './components/Error404';
 
 function App() {
   return (

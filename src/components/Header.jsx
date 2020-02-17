@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 var links = {
   color: 'white',
   textAlign: 'right',
+  marginTop: '11vh',
 }
 
 function Header(){
@@ -12,7 +13,7 @@ function Header(){
     justifyContent:'left',
     backgroundImage: "url('btlogo.png')",
     backgroundRepeat: 'no-repeat',
-    backgroundSize: '11vh',
+    backgroundSize: '20vh',
     padding: '2vh',
     color:'white',
     borderRadius: '1vh',
@@ -22,6 +23,7 @@ function Header(){
     height:'20%',
     alignItems: "center",
     textAlign:'center',
+    height: '20vh',
 
   }
 
@@ -29,7 +31,7 @@ function Header(){
     <div style = {headerStyle}>
       <h1></h1>
       <div style = {links} className="links">
-      <Link to="/" style={{ color: '#FFF' }}>HOME</Link> | <Link to="/keglist" style={{ color: '#FFF' }}>KEGS ON TAP</Link>
+      <h2><Link to="/" style={{ color: '#FFF' }}>HOME</Link> | <Link to="/keglist" style={{ color: '#FFF' }}>KEGS ON TAP</Link></h2>
       </div>
       <hr/>
     </div>

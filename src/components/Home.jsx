@@ -10,7 +10,7 @@ function Home(){
 
 return (
   <div style = {homeStyle}>
-    <h2> Welcome to Brew Time Tap Room!</h2>
+    <h1> WELCOME TO BREW TIME TAP ROOM!</h1>
   </div>
 );
 }

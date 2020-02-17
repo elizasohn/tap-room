@@ -4,6 +4,7 @@ body {
   background-attachment: fixed;
   margin: 2vh;
   color: white;
+  font-family: futura;
 }
 .keg {
   margin: 5px;
@@ -12,24 +13,32 @@ body {
 }
 .links {
   font-family: futura;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 hr {
   border: 2px solid;
   border-radius: 25px;
+  margin-top: 1vh;
 }
 .headerStyle{
   text-align: center;
   align-content: center;
   text-shadow: .1vh .1vh .4vh #000000;
 }
+h1 {
+  font-family: futura;
+  text-shadow: .1vh .1vh .4vh #000000;
+}
 h2 {
-  font-size: 4vh;
+  font-size: 3vh;
   margin-bottom: 0px;
 }
 h3 {
   margin-top: 5px;
   margin-bottom: 5px;
   margin-right: 20px;
-  font-size: 2.5vh;
+  font-size: 2vh;
+}
+header {
+  height: 20vh;
 }

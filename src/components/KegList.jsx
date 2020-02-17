@@ -7,12 +7,13 @@ var keglistStyle = {
   flexWrap: 'wrap',
   justifyContent:'center',
   backgroundColor: '#000000',
-  padding: '2vh',
+  padding: '4vh',
   opacity: '.7',
   overflow: 'visible',
   borderRadius: '4vh',
   margin:'10px',
   fontSize: '14px',
+  textAlign: 'left',
 }
 
 

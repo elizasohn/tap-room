@@ -11,7 +11,6 @@ function App() {
   return (
     <div>
     <Header/>
-    <Home/>
     <Switch>
       <Route exact path='/' component={Home} />
       <Route exact path='/keglist' component={KegList} />

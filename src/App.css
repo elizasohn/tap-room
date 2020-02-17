@@ -18,11 +18,18 @@ hr {
   border: 2px solid;
   border-radius: 25px;
 }
-h3 {
+.headerStyle{
+  text-align: center;
+  align-content: center;
+  text-shadow: .1vh .1vh .4vh #000000;
+}
+h2 {
   font-size: 4vh;
   margin-bottom: 0px;
 }
-h2 {
-  margin: 5px;
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 20px;
   font-size: 2.5vh;
 }

@@ -1,68 +1,65 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+    $$$$$$$$\  $$$$$$\  $$$$$$$\        $$$$$$$\   $$$$$$\   $$$$$$\  $$\      $$\
+    \__$$  __|$$  __$$\ $$  __$$\       $$  __$$\ $$  __$$\ $$  __$$\ $$$\    $$$ |
+       $$ |   $$ /  $$ |$$ |  $$ |      $$ |  $$ |$$ /  $$ |$$ /  $$ |$$$$\  $$$$ |
+       $$ |   $$$$$$$$ |$$$$$$$  |      $$$$$$$  |$$ |  $$ |$$ |  $$ |$$\$$\$$ $$ |
+       $$ |   $$  __$$ |$$  ____/       $$  __$$< $$ |  $$ |$$ |  $$ |$$ \$$$  $$ |
+       $$ |   $$ |  $$ |$$ |            $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |\$  /$$ |
+       $$ |   $$ |  $$ |$$ |            $$ |  $$ | $$$$$$  | $$$$$$  |$$ | \_/ $$ |
+       \__|   \__|  \__|\__|            \__|  \__| \______/  \______/ \__|     \__|
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## _Code Review, REACT - TAP ROOM, 2.14.2020_
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+#### By
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ______ _      _____ ______         
+    |  ____| |    |_   _|___  /   /\    
+    | |__  | |      | |    / /   /  \   
+    |  __| | |      | |   / /   / /\ \  
+    | |____| |____ _| |_ / /__ / ____ \
+    |______|______|_____/_____/_/    \_\
+        / ____|/ __ \| |  | | \ | |      
+       | (___ | |  | | |__| |  \| |      
+        \___ \| |  | |  __  | . ` |      
+        ____) | |__| | |  | | |\  |      
+       |_____/ \____/|_|  |_|_| \_|      
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Description
 
-### `yarn eject`
+_A tap room where a bar can track their kegs.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Setup/Installation Requirements
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* _In terminal type "git clone https://github.com/elizasohn/tap-room.git"_
+* _Navigate into directory by typing "cd tap-room"_
+* _Type "npm install"_
+* _Type "npm run start" to run on local server_
+* _Enter "localhost:3000" (or whatever numbers terminal supplies) into web browser to run locally_
+* _Explore site_
+* _Enjoy_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Known Bugs
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* _No known bugs_
 
-## Learn More
+## Support and contact details
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+_Eliza.Sohn@gmail.com_
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used
 
-### Code Splitting
+* _React_
+* _Markdown_
+* _CSS_
+* _HTML5_
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### License
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright (c) 2020 **_Eliza Sohn_**

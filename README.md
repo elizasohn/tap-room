@@ -32,7 +32,13 @@
 
 ## Description
 
-_A tap room where a bar can track their kegs.
+A tap room where a bar can track their kegs.
+
+## Component Structure
+
+
+![image](https://user-images.githubusercontent.com/56556859/74630511-9686d700-510f-11ea-90f0-a33468a1a646.png)
+
 
 ## Setup/Installation Requirements
 

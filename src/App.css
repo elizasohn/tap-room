@@ -2,6 +2,7 @@ body {
   background-image: url("./beerhall.jpg");
   background-repeat: 'no-repeat';
   background-attachment: fixed;
+  background-size: cover;
   margin: 2vh;
   color: white;
   font-family: futura;

@@ -11,6 +11,20 @@ import Error404 from './components/Error404';
 
 class App extends React.Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      masterKegList: []
+    };
+    handleAddingNewKegToList = this.handleAddingNewKegToList.bind(this);
+  }
+
+  handleAddingNewKegToList(newKeg){
+    var newMasterKegList = this.state.masterKegList.slice();
+    newMasterKegList.push(newKeg);
+    this.setState({masterKegList: newMasterKegList});
+  }
+
 render() {
   return (
     <div>

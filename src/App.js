@@ -16,7 +16,7 @@ class App extends React.Component {
     this.state = {
       masterKegList: []
     };
-    handleAddingNewKegToList = this.handleAddingNewKegToList.bind(this);
+    this.handleAddingNewKegToList = this.handleAddingNewKegToList.bind(this);
   }
 
   handleAddingNewKegToList(newKeg){

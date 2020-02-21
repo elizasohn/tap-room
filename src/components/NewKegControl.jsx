@@ -15,6 +15,9 @@ class NewKegControl extends React.Component {
     this.setState({formVisibleOnPage: true});
   }
 
+  handleClick(){
+  console.log('Hey, you clicked me! I do not have code to change my state quite yet, but I will in a moment!');
+}
     render(){
       let currentlyVisibleContent = null;
       if (this.state.formVisibleOnPage){

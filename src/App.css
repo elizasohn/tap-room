@@ -6,6 +6,7 @@ body {
   margin: 2vh;
   color: white;
   font-family: futura;
+  content-align: center;
 }
 .keg {
   margin: 5px;
@@ -56,10 +57,30 @@ button {
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 4vh;
   padding: 4vh;
+  border: 2px solid white;
   font-family: futura;
   align-content: center;
+  outline: none;
 }
 .button {
-    align-content: center;
-    align-content: center;
+  outline: none;
+}
+button:focus {
+  border: 2px solid #555;
+}
+input[type=text] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 4vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 14px;
+  font-family: futura;
+  outline: none;
+}
+input[type=text]:focus {
+  border: 2px solid #555;
 }

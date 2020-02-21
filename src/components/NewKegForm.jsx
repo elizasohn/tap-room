@@ -44,7 +44,7 @@ function NewKegForm(props){
           id='alcoholContent'
           placeholder='Alcohol Content'
           ref={(input) => {_alcoholContent = input;}}/>
-        <button type='submit'>Add Keg</button>
+        <button type='submit'>ADD KEG</button>
       </form>
     </div>
   );

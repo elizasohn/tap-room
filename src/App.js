@@ -9,18 +9,21 @@ import './App.css';
 import './index.css';
 import Error404 from './components/Error404';
 
-function App() {
+class App extends React.Component {
+
+render() {
   return (
     <div>
     <Header/>
     <Switch>
       <Route path='/' component={Home} />
       <Route path='/keglist' component={KegList} />
-      <Route path='/newkeg' compontent={NewKegForm} />
+      <Route path='/newkeg' render={()=><NewKegControl onNewKegCreation={this.handleAddingNewKegToList} />} />
       <Route path='*' component={Error404} />
     </Switch>
     </div>
   );
 }
 
+}
 export default App;

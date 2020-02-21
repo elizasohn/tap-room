@@ -81,7 +81,7 @@ let masterKegList = [
   }
 ];
 
-function KegList(){
+function KegList(props){
 
   return (
     <div style = {keglistStyle}>

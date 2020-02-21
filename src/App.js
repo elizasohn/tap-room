@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
 import KegList from './components/KegList';
+import NewKegForm from './components/NewKegForm';
 import './App.css';
 import './index.css';
 import Error404 from './components/Error404';

@@ -1,8 +1,8 @@
 body {
   background-image: url("./beerhall.jpg");
-  background-repeat: 'no-repeat';
-  background-attachment: fixed;
   background-size: cover;
+  background-position: center;
+  height: 100vh;
   margin: 2vh;
   color: white;
   font-family: futura;

@@ -12,8 +12,9 @@ function App() {
     <div>
     <Header/>
     <Switch>
-      <Route exact path='/' component={Home} />
-      <Route exact path='/keglist' component={KegList} />
+      <Route path='/' component={Home} />
+      <Route path='/keglist' component={KegList} />
+      <Route path='/newkeg' compontent={NewKegForm} />
       <Route path='*' component={Error404} />
     </Switch>
     </div>

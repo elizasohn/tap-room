@@ -17,7 +17,6 @@ var keglistStyle = {
   textAlign: 'left',
 }
 
-
 let masterKegList = [
   {
     name: "Pils",
@@ -85,7 +84,7 @@ function KegList(props){
 
   return (
     <div style = {keglistStyle}>
-      {props.masterKegList.map((keg, index) =>
+      {props.kegList.map((keg, index) =>
         <Keg name={keg.name}
         brand={keg.brand}
         price={keg.price}

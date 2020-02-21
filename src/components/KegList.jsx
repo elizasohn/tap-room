@@ -17,7 +17,7 @@ var keglistStyle = {
 }
 
 
-let kegList = [
+let masterKegList = [
   {
     name: "Pils",
     brand: "Heater Allen Brewing",
@@ -84,7 +84,7 @@ function KegList(){
 
   return (
     <div style = {keglistStyle}>
-      {kegList.map((keg, index) =>
+      {masterKegList.map((keg, index) =>
         <Keg name={keg.name}
         brand={keg.brand}
         price={keg.price}

@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
 import KegList from './components/KegList';
+// import NewKegForm from './components/NewKegForm';
 import NewKegControl from './components/NewKegControl';
 import './App.css';
 import './index.css';
@@ -29,8 +30,8 @@ render() {
     <div>
     <Header/>
     <Switch>
-      <Route path='/' component={Home} />
-      <Route path='/keglist' component={KegList} />
+      <Route path='/' exact component={Home} />
+      <Route exact path='/keglist' render={()=><KegList kegList={this.state.masterTicketList} />} />
       <Route path='/newkeg' render={()=><NewKegControl onNewKegCreation={this.handleAddingNewKegToList} />} />
       <Route path='*' component={Error404} />
     </Switch>

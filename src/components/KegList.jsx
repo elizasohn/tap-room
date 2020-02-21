@@ -17,7 +17,7 @@ var keglistStyle = {
 }
 
 
-const kegList = [
+let kegList = [
   {
     name: "Pils",
     brand: "Heater Allen Brewing",

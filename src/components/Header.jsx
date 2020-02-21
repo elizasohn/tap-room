@@ -23,13 +23,11 @@ function Header(){
     height:'20%',
     alignItems: "center",
     textAlign:'center',
-    height: '20vh',
 
   }
 
   return (
     <div style = {headerStyle}>
-      <h1></h1>
       <div style = {links} className="links">
       <h2><Link to="/" style={{ color: '#FFF' }}>HOME</Link> | <Link to="/keglist" style={{ color: '#FFF' }}>KEGS ON TAP</Link> | <Link to="/asdfasdf" style={{ color: '#FFF' }}>COOL ERROR MESSAGE</Link></h2>
       </div>

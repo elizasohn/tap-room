@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 function ShowingKegForm(props){
   return (
-    <div>
-      <button onClick={props.onHandleShowingKegForm}>Add A New Keg</button>
+    <div className = 'button' >
+      <button  onClick={props.onHandleShowingKegForm}>Add A New Keg</button>
     </div>
   );
 }

@@ -16,6 +16,7 @@ var keglistStyle = {
   margin:'10px',
   fontSize: '14px',
   textAlign: 'left',
+  contentAlign: 'center',
 }
 
 function KegList(props){

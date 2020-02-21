@@ -22,9 +22,9 @@ class NewKegControl extends React.Component {
       let currentlyVisibleContent = null;
       if (this.state.formVisibleOnPage){
         currentlyVisibleContent = <NewKegForm onNewKegCreation={this.props.onNewKegCreation}/>;
-      } else {
-      currentlyVisibleContent = <ConfirmationQuestions onTroubleshootingConfirmation={this.handleTroubleshootingConfirmation}/>;
-      }
+      // } else {
+      // currentlyVisibleContent = <ConfirmationQuestions onTroubleshootingConfirmation={this.handleTroubleshootingConfirmation}/>;
+      // }
       return (
         <div>
         {currentlyVisibleContent}
@@ -32,7 +32,8 @@ class NewKegControl extends React.Component {
       );
     }
   }
-  NewKegControl.propTypes = {
+
+NewKegControl.propTypes = {
     onNewKegCreation: PropTypes.func
   };
 

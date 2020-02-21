@@ -31,7 +31,7 @@ render() {
     <Header/>
     <Switch>
       <Route path='/' exact component={Home} />
-      <Route exact path='/keglist' render={()=><KegList kegList={this.state.masterTicketList} />} />
+      <Route exact path='/keglist' render={()=><KegList kegList={this.state.masterKegList} />} />
       <Route path='/newkeg' render={()=><NewKegControl onNewKegCreation={this.handleAddingNewKegToList} />} />
       <Route path='*' component={Error404} />
     </Switch>

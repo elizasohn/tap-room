@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import NewKegForm from './NewKegForm';
-import ConfirmationQuestions from './ConfirmationQuestions';
+import ShowingKegForm from './ShowingKegForm';
 
 class NewKegControl extends React.Component {
   constructor(props) {
@@ -9,22 +9,20 @@ class NewKegControl extends React.Component {
     this.state = {
       formVisibleOnPage: false
     };
-    this.handleTroubleshootingConfirmation = this.handleTroubleshootingConfirmation.bind(this);
+    this.handleShowingKegForm = this.handleShowingKegForm.bind(this);
   }
 
-  handleTroubleshootingConfirmation(){
+  handleShowingKegForm(){
     this.setState({formVisibleOnPage: true});
   }
 
-  handleClick(){
-  console.log('Hey, you clicked me! I do not have code to change my state quite yet, but I will in a moment!');
-}
+
     render(){
       let currentlyVisibleContent = null;
       if (this.state.formVisibleOnPage){
         currentlyVisibleContent = <NewKegForm onNewKegCreation={this.props.onNewKegCreation}/>;
       } else {
-      currentlyVisibleContent = <ConfirmationQuestions onTroubleshootingConfirmation={this.handleTroubleshootingConfirmation}/>;
+      currentlyVisibleContent = <ShowingKegForm onHandleShowingKegForm={this.handleShowingKegForm}/>;
       }
       return (
         <div>

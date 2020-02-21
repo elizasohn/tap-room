@@ -1,6 +1,8 @@
 import React from "react";
 import Keg from "./Keg";
 import PropTypes from "prop-types";
+import NewKegForm from './NewKegForm';
+import ShowingKegForm from './ShowingKegForm';
 
 
 var keglistStyle = {

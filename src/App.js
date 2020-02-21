@@ -92,7 +92,12 @@ render() {
     <Header/>
     <Switch>
       <Route path='/' exact component={Home} />
-      <Route exact path='/keglist' render={()=><KegList kegList={this.state.masterKegList} />} />
+      <Route exact path='/keglist' render={()=>
+          <div>
+          <KegList kegList={this.state.masterKegList}/>
+          <NewKegControl onNewKegCreation={this.handleAddingNewKegToList} />
+          </div>
+        } />
       <Route path='/newkeg' render={()=><NewKegControl onNewKegCreation={this.handleAddingNewKegToList} />} />
       <Route path='*' component={Error404} />
     </Switch>

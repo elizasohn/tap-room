@@ -48,3 +48,15 @@ h3 {
 header {
   height: 20vh;
 }
+button {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 4vh;
+  padding: 4vh;
+  font-family: futura;
+  align-content: center;
+
+}

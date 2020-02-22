@@ -71,6 +71,7 @@ button {
   font-family: futura;
   align-content: center;
   outline: none;
+  margin: 4vh;
 }
 .button {
   outline: none;

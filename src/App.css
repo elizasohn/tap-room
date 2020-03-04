@@ -25,25 +25,25 @@ body {
 .links {
   font-family: futura;
   margin-bottom: 0px;
-  text-shadow: .05vh .05vh .1vh #000000;
+  text-shadow: 0.05vh 0.05vh 0.1vh #000000;
 }
 hr {
   border: 2px solid;
   border-radius: 25px;
   margin-top: 1vh;
 }
-.headerStyle{
+.headerStyle {
   text-align: center;
   align-content: center;
-  text-shadow: .1vh .1vh .4vh #000000;
+  text-shadow: 0.1vh 0.1vh 0.4vh #000000;
 }
 .error {
   text-align: center;
-  text-shadow: .1vh .1vh .4vh #000000;
+  text-shadow: 0.1vh 0.1vh 0.4vh #000000;
 }
 h1 {
   font-family: futura;
-  text-shadow: .1vh .1vh .4vh #000000;
+  text-shadow: 0.1vh 0.1vh 0.4vh #000000;
 }
 h2 {
   font-size: 3vh;
@@ -79,7 +79,7 @@ button {
 button:focus {
   border: 2px solid #555;
 }
-input[type=text] {
+input[type="text"] {
   width: 20%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -92,6 +92,6 @@ input[type=text] {
   font-family: futura;
   outline: none;
 }
-input[type=text]:focus {
+input[type="text"]:focus {
   border: 2px solid #555;
 }

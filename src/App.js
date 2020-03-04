@@ -1,16 +1,15 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Home from './components/Home';
-import KegList from './components/KegList';
-import NewKegForm from './components/NewKegForm';
-import NewKegControl from './components/NewKegControl';
-import './App.css';
-import './index.css';
-import Error404 from './components/Error404';
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import KegList from "./components/KegList";
+import NewKegForm from "./components/NewKegForm";
+import NewKegControl from "./components/NewKegControl";
+import "./App.css";
+import "./index.css";
+import Error404 from "./components/Error404";
 
 class App extends React.Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -80,30 +79,40 @@ class App extends React.Component {
     this.handleAddingNewKegToList = this.handleAddingNewKegToList.bind(this);
   }
 
-  handleAddingNewKegToList(newKeg){
+  handleAddingNewKegToList(newKeg) {
     var newMasterKegList = this.state.masterKegList.slice();
     newMasterKegList.push(newKeg);
-    this.setState({masterKegList: newMasterKegList});
+    this.setState({ masterKegList: newMasterKegList });
   }
 
-render() {
-  return (
-    <div>
-    <Header/>
-    <Switch>
-      <Route path='/' exact component={Home} />
-      <Route exact path='/keglist' render={()=>
-          <div>
-          <KegList kegList={this.state.masterKegList}/>
-          <NewKegControl onNewKegCreation={this.handleAddingNewKegToList} />
-          </div>
-        } />
-      <Route path='/newkeg' render={()=><NewKegForm onNewKegCreation={this.handleAddingNewKegToList}/>} />
-      <Route path='*' component={Error404} />
-    </Switch>
-    </div>
-  );
-}
-
+  render() {
+    return (
+      <div style={{ width: "100vw" }}>
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route
+            exact
+            path="/keglist"
+            render={() => (
+              <div>
+                <KegList kegList={this.state.masterKegList} />
+                <NewKegControl
+                  onNewKegCreation={this.handleAddingNewKegToList}
+                />
+              </div>
+            )}
+          />
+          <Route
+            path="/newkeg"
+            render={() => (
+              <NewKegForm onNewKegCreation={this.handleAddingNewKegToList} />
+            )}
+          />
+          <Route path="*" component={Error404} />
+        </Switch>
+      </div>
+    );
+  }
 }
 export default App;
